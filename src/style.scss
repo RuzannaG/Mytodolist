@@ -1,0 +1,83 @@
+.border{
+    width: 900px;
+    height: 100px;
+    border:1px solid rgb(230, 226, 226);
+   margin: 0 auto;
+    display: flex;
+  flex-direction: column;
+}
+
+.inp{
+  width: 89%;
+  height: 30px;
+  margin:10px;
+ margin-left: 40px;
+ border:1px solid rgb(230, 226, 226);
+
+}
+.btn{
+  width: 90%;
+  height: 30px;
+ background-color: rgb(125, 200, 235);
+ margin-left: 40px;
+ color:white;
+ border: 1px solid rgb(125, 200, 235);
+ font-size: 20px;
+}
+
+.htreebut{
+  width: 900px;
+ 
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   justify-content: space-between;
+}
+
+.htreebut button{
+  width: 260px;
+  height: 30px;
+  background-color: rgb(125, 200, 235);;
+  color:white;
+  border: 1px solid rgb(125, 200, 235);
+  font-size: 20px;
+
+}
+.input-list{
+  display:flex;
+  width: 100%;
+  height: 40px;
+  border:1px solid rgb(230, 226, 226);
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.input-list li{
+  list-style-type:none;
+  margin-top: 7px;
+}
+.city{
+  width: 900px;
+  margin: auto;
+
+}
+.delete{
+  width: 900px;
+  height: 100px;
+  margin-top: 10px;
+margin: auto;
+
+}
+
+.delete button{
+  background-color: red;
+  color:white;
+  width: 48%;
+  border: 1px solid red;
+  font-size: 20px;
+  margin: 5px;
+  margin-top:10px ;
+  height: 40px;
+}
